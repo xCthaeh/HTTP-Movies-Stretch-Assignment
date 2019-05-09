@@ -59,8 +59,8 @@ class MovieCreate extends React.Component {
 
   render() {
     return (
-      <div>
-        {this.state.success && <h1>Successfully added a movie!</h1>}
+      <div className="form">
+        {this.state.success && <h1 class="success">Successfully added a movie!</h1>}
         {this.state.error && this.state.error}
         <form>
           <input
