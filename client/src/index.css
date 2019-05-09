@@ -67,6 +67,7 @@ body {
 }
 
 .home-button {
+  margin: 0 0.25rem;
   padding: 5px 10px;
   background-color: lightskyblue;
 }
@@ -74,4 +75,50 @@ body {
 .movie-warning {
   color: red;
   text-align: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form {
+  margin: auto;
+  width: 100%;
+}
+
+form {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  margin: 0.25rem;
+}
+
+button {
+  display: inline-block;
+  margin: 0.25rem;
+  padding: 0.5rem;
+  background-color: lightskyblue;
+  border: 1px solid #ccc;
+}
+
+.movie-card{
+  width:75%;
+}
+
+.success {
+  display: flex;
+  justify-content: center;
 }
